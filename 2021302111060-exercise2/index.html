@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Form</title>
+</head>
+<body>
+
+<!--Username
+	Password
+	gender:male female
+	hobbies:movie music bike sport
+	-->
+
+<!-- write your code here -->
+<form action="Servlet1" method="POST">
+		<label>Username
+			<input type="text" name="Username" ><br>
+		</label>
+		<label>Password
+			<input type="password" name="Password" ><br>
+		</label>
+		<lable>gender:<br>
+			<input type="radio" name="gender" value="male">male
+			<input type="radio" name="gender" value="female">female
+		</lable>
+		<br>
+		<lable>hobbies:<br>
+			<input type="checkbox" name="hobbies" value="movie">movie
+			<input type="checkbox" name="hobbies" value="music">music
+			<input type="checkbox" name="hobbies" value="sport">sport
+			<input type="checkbox" name="hobbies" value="bike">bike
+		</lable>
+		<br>
+		<input name="submit" type="submit" value="submit"></form>
+
+
+
+<!-- end -->
+
+</body>
+</html>
